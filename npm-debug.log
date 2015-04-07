@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'instragram-node',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Instranode@1.0.0 No description
+6 warn package.json Instranode@1.0.0 No repository field.
+7 warn package.json Instranode@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'instragram-node', null ]
+10 verbose cache add name=undefined spec="instragram-node" args=["instragram-node",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'instragram-node',
+11 verbose parsed url   path: 'instragram-node',
+11 verbose parsed url   href: 'instragram-node' }
+12 silly lockFile 50811c4c-instragram-node instragram-node
+13 verbose lock instragram-node C:\Documents and Settings\Administrator\Application Data\npm-cache\50811c4c-instragram-node.lock
+14 silly lockFile 50811c4c-instragram-node instragram-node
+15 silly lockFile 50811c4c-instragram-node instragram-node
+16 verbose addNamed [ 'instragram-node', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 23e1b090-instragram-node instragram-node@
+19 verbose lock instragram-node@ C:\Documents and Settings\Administrator\Application Data\npm-cache\23e1b090-instragram-node.lock
+20 silly addNameRange { name: 'instragram-node', range: '*', hasData: false }
+21 verbose request where is /instragram-node
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 39685ad9503c2d58
+24 verbose url raw /instragram-node
+25 verbose url resolving [ 'https://registry.npmjs.org/', './instragram-node' ]
+26 verbose url resolved https://registry.npmjs.org/instragram-node
+27 verbose request where is https://registry.npmjs.org/instragram-node
+28 info trying registry request attempt 1 at 19:21:30
+29 http GET https://registry.npmjs.org/instragram-node
+30 http 404 https://registry.npmjs.org/instragram-node
+31 verbose headers { date: 'Wed, 08 Apr 2015 00:22:07 GMT',
+31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=0',
+31 verbose headers   'content-length': '51',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   'x-served-by': 'cache-jfk1034-JFK',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1428452527.185709,VS0,VE22',
+31 verbose headers   'keep-alive': 'timeout=10, max=50',
+31 verbose headers   connection: 'Keep-Alive' }
+32 silly registry.get cb [ 404,
+32 silly registry.get   { date: 'Wed, 08 Apr 2015 00:22:07 GMT',
+32 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=0',
+32 silly registry.get     'content-length': '51',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1428452527.185709,VS0,VE22',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 silly lockFile 23e1b090-instragram-node instragram-node@
+34 silly lockFile 23e1b090-instragram-node instragram-node@
+35 error 404 404 Not Found: instragram-node
+35 error 404
+35 error 404 'instragram-node' is not in the npm registry.
+35 error 404 You should bug the author to publish it
+35 error 404 It was specified as a dependency of 'Instranode'
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, or http url, or git url.
+36 error System Windows_NT 5.1.2600
+37 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "instragram-node" "--save"
+38 error cwd D:\WebstormProjects\Instranode
+39 error node -v v0.10.32
+40 error npm -v 1.4.28
+41 error code E404
+42 verbose exit [ 1, true ]
